@@ -1,0 +1,25 @@
+{
+	"name": "trigger_every_15minutes",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "SDP_every_15minutes",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2026-06-18T05:38:00",
+				"endTime": "2026-06-21T05:38:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

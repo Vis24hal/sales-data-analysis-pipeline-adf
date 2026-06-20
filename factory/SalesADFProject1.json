@@ -1,0 +1,15 @@
+{
+	"name": "SalesADFProject1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d5c1d432-aebf-4ab3-b425-76cef4aa3712",
+		"tenantId": "cc5ba5ab-2327-40a6-8a78-cd5b579cd49c"
+	}
+}
